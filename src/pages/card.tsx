@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useState, useEffect } from 'react';
 import DarkModeToggle from '@/components/UI/DarkModeToggle';
 
-interface IndexProps {}
+interface IndexProps  {}
 
 const Index: React.FunctionComponent<IndexProps> = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
